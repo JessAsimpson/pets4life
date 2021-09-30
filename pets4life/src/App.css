@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.react-responsive-modal-modal {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+
+#total {
+  padding-top: 10px;
+  font-style: italic;
+}
+
+#total2 {
+  padding-bottom: 10px;
+}
+
+#buttoncontainer {
+  padding-top: 20px;
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  font-size: 25px;
+  border: 1px ridge black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#basketimg {
+  height: 40px;
+  width: 40px;
+}
+#salecontent{
+  width: 98vw;
+  max-height: 350vh;
+  display: flex;
+  justify-content: center;
+}
+
+#background {
+  max-height: 10000px;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+#heading {
+  position: relative;
+  max-width: 99vw;
+  text-align: center;
+  line-height: 2;
+  padding-top: 12px;
+  font-family: 'Arsenal', sans-serif;
+  font-style: italic;
+}
+
+#para{
+  font-style: italic;
+}
+
+#homepage {
+  padding-top: 5px;
+  font-family:'Arsenal', sans-serif;
+  
+}
+
+#homepage:hover {
+  text-decoration: none;
+}
+
+#pcheader {
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  border-bottom: 1px grey solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+   
+}
+
+.pclogo {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  font-family:'Arsenal', sans-serif;
+}
+
+.pcheadlinks {
+  display: flex;
+  margin-right: 24px;
+  font-family:'Arsenal', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.pcheadlinks a {
+  text-decoration: none;
+  color: black;
+}
+
+.pcheadlinks a:hover {
+  text-decoration: underline;
+}
+
+#logoimg {
+  max-width: 50px;
+  max-height: auto;
+}
+
+#navlinks {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.contentspace {
+  height: 64px;
+}
+
+/* Slideshow */
+
+#maincontent {
+  max-width: 99vw;
+  max-height: auto;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.slider {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  max-width: 375px;
+  max-height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32%;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+opacity: 1;
+transition-duration: 1s;
+transform: scale(1.08);
+}
+
+/* sale content */
+
+
+.cats {
+  max-width: 100vw;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cat {
+  margin-bottom: 40px;
+  width: 350px;
+  max-height: 500px;
+  border: 1px black ridge;
+  border-spacing: 15px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 20px;
+}
+
+.buttoncontainer {
+  bottom: 0%;
+}
+
+.catimages {
+  padding-top: 5px;
+  width: 90%;
+  height: 70%;
+}
+
+#work {
+  margin-top: 10px;
+  font-size: 18px;
+  border: 1px ridge black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family:'Arsenal', sans-serif;
+  font-style: italic;
+  color: black;
+  background-color: pink;
+}
