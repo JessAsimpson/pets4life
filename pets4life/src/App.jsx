@@ -50,7 +50,7 @@ function App() {
                 <a id="homepage"><h2>Cats4Life</h2></a>
             </div>
             <div class="pcheadlinks">
-                <a id="navlinks" onClick={onOpenModal}>Checkout</a>
+                <a class="navlink" onClick={onOpenModal}>Checkout</a>
                 
                 <Modal open={open} onClose={onCloseModal} center className="modal">
                         <Basket basket={basket} className="modal"/>
@@ -65,8 +65,8 @@ function App() {
       </div>
 
       <div id="heading">
-        <h1>Welcome to Cats4Life</h1>
-        <p id="para">Your one stop shop for cats & kittens! </p>
+        <h1>Cats4Life</h1>
+        <p className="para">Your one stop shop for cats & kittens! </p>
       </div>
       <div id="maincontent">
         <ImageSlider slides={SliderData}/>

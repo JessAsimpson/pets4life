@@ -7,6 +7,7 @@
   width: 200px;
   height: auto;
   border-radius: 20px;
+  background-color: whitesmoke;
 }
 
 #total {
@@ -24,6 +25,7 @@
   height: auto;
   display: flex;
   justify-content: center;
+  
 }
 
 #button {
@@ -46,7 +48,7 @@
 
 #background {
   max-height: 10000px;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#bdc3c7, #2c3e50);
 }
 
 #heading {
@@ -55,17 +57,22 @@
   text-align: center;
   line-height: 2;
   padding-top: 12px;
-  font-family: 'Arsenal', sans-serif;
-  font-style: italic;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 35px;
+  
 }
 
-#para{
+.para{
   font-style: italic;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+
 }
 
 #homepage {
   padding-top: 5px;
-  font-family:'Arsenal', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  
   
 }
 
@@ -90,13 +97,13 @@
   display: flex;
   align-items: center;
   margin-left: 16px;
-  font-family:'Arsenal', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .pcheadlinks {
   display: flex;
   margin-right: 24px;
-  font-family:'Arsenal', sans-serif;
+  font-family:'Luckiest Guy', cursive;
   font-size: 22px;
   font-weight: 600;
 }
@@ -189,6 +196,7 @@ transform: scale(1.08);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  
 }
 
 .cat {
@@ -196,10 +204,11 @@ transform: scale(1.08);
   width: 350px;
   max-height: 500px;
   border: 1px black ridge;
-  border-spacing: 15px;
+  border-spacing: 120x;
   text-align: center;
   padding-bottom: 40px;
   border-radius: 20px;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .buttoncontainer {
@@ -218,8 +227,11 @@ transform: scale(1.08);
   border: 1px ridge black;
   border-radius: 8px;
   cursor: pointer;
-  font-family:'Arsenal', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
   font-style: italic;
   color: black;
-  background-color: pink;
+  background-color: rgb(163, 157, 158);
+}
+.navlink{
+  font-family: 'Covered By Your Grace', cursive;
 }
